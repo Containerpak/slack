@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Slack
+Comment=Communicate with your team and organization.
+Exec=slack %U
+Icon=slack
+Terminal=false
+Categories=Network;InstantMessaging;
