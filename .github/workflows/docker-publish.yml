@@ -50,7 +50,7 @@ jobs:
           provenance: mode=max
           sbom: true
       - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/slack:main sh -c 'test -x /usr/bin/slack && test -f /usr/share/applications/slack.desktop'
+        run: docker run --rm ghcr.io/containerpak/slack:main sh -c 'test ! -e /usr/bin/slack && test ! -e /usr/share/applications/slack.desktop'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/slack@${{ steps.build.outputs.digest }}" >> "$GITHUB_STEP_SUMMARY"
 
