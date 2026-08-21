@@ -3,14 +3,14 @@
   "manifest_version": "2.0",
   "name": "Slack",
   "description": "Communicate with your team and organization.",
-  "version": "4.51.180",
+  "version": "4.51.191",
   "image": "ghcr.io/containerpak/slack:main",
   "runtime_sources": [
     {
-      "name": "slack-desktop-4.51.180-amd64.deb",
-      "url": "https://downloads.slack-edge.com/desktop-releases/linux/x64/4.51.180/slack-desktop-4.51.180-amd64.deb",
-      "sha256": "aa45e151794703377012a9ad78f0b2152c368852e085267ae689dafb5c308ea1",
-      "size": 94403330,
+      "name": "slack-desktop-4.51.191-amd64.deb",
+      "url": "https://downloads.slack-edge.com/desktop-releases/linux/x64/4.51.191/slack-desktop-4.51.191-amd64.deb",
+      "sha256": "572474596216b635b69c4a72b42176a1d4d66f99e49e6267861aecdf3f79c1ed",
+      "size": 94954230,
       "installer": "deb-extract",
       "architecture": "amd64"
     }
