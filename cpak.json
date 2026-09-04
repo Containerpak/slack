@@ -4,7 +4,7 @@
   "name": "Slack",
   "description": "Communicate with your team and organization.",
   "version": "4.52.155",
-  "image": "ghcr.io/containerpak/slack@sha256:c3b05e078889fe2b8503fdea7837c0738b7e40f918e899b41c1f29509e599e22",
+  "image": "ghcr.io/containerpak/slack@sha256:f608ac116605656de4e8e87fbe0f4ff635a5991622104cf53d43839cc129f3f3",
   "runtime_sources": [
     {
       "name": "slack-desktop-4.52.155-amd64.deb",
